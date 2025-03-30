@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": ["src/**/*.ts", "src/services/csvGenerator.ts", "src/services/encryptDecrypt.ts", "src/services/fileReader.ts", "src/services/objectConverter.ts", "src/containers/container.ts"],
+  "exclude": ["src/node_modules"]
+}

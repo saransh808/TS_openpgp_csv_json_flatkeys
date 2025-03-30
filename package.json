@@ -1,0 +1,22 @@
+{
+  "name": "encryptdecryptv2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.3.0",
+    "inversify": "^7.2.0",
+    "openpgp": "^6.1.0",
+    "path": "^0.12.7",
+    "reflect-metadata": "^0.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}

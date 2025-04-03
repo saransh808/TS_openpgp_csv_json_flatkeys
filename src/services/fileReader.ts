@@ -7,6 +7,7 @@ import { IFileReader } from '../interfaces/fileReader.interface';
 export class FileSystemReader implements IFileReader {
     readFile(filePath: string): Buffer {
         return fs.readFileSync(filePath);
+        // comment from local
     }
 
     writeFile(filePath: string, data: Buffer): void {

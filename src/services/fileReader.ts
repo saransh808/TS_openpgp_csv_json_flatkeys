@@ -7,6 +7,7 @@ import { IFileReader } from '../interfaces/fileReader.interface';
 export class FileSystemReader implements IFileReader {
     readFile(filePath: string): Buffer {
         return fs.readFileSync(filePath);
+        //this is a test comment for git fetch and git merge
     }
 
     writeFile(filePath: string, data: Buffer): void {
